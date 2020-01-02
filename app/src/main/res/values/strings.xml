@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="title_activity_location">Map</string>
+
+
+    <string-array name="array_technology">
+
+        <item>HELPLINES</item>
+
+        <item> RPF 182</item>
+
+        <item>Helpline 139 </item>
+
+        <item >Rules</item>
+
+        <item>Every person desirous of travelling on a Railway shall, upon payment of his fare be suppliedwith a ticket specifying the class of carriage for which, and the place from and the place to which, the fare has been paid.</item>
+
+        <item>A person to whom a ticket has been issued and for whom there is not room available in the trainfor which the ticket was issued shall, on returning the ticket within three hours after the departure of the train, entitled to have his fare refunded.</item>
+
+        <item>A person for whom there is not room available in the class of carriage for which he has purchased a ticket and who is obliged to travel in a carriage of a lowerclass shall be entitled on delivering up his ticket to a refund of the difference between the fare paid by him and the fare payable for the class of carriagein which he travelled.</item>
+
+        <item>No person, shall without the permission of Railway Servant, enter (or remain in) any carriage on a Railway for the purpose of travellingtherein as a passenger unless he has with him a proper, pass or ticket.</item>
+
+        <item>If a passenger, having entered a compartment which is reserved by the Railway Administration for the use of another passenger, or which already contains themaximum number of passengers exhibited therein or thereon refuses to leave it when required to do so by any Railway servant, he shall be punished with fineaccording to existing rules of the Railway.</item>
+
+        <item>If a passenger resists the lawful entry of another passenger into a compartment not reserved by the Railway administration for the use of the passenger resistingor not already containing the maximum number of passenger exhibited therein or thereon, he shall be punished with the fine according to existing rules of the Railway.</item>
+
+        <item>If a person without consent of his fellow passengers, if any in the same compartment, smokes in any compartment except a compartment specially provided for the purpose,he shall be punished with fine according to the existing rules of the Railways.</item>
+
+        <item>If any person persists in smoking after being warned by any Railway servant to desist. he may in addition to incurring the liability, be removed by any Railway Servantfrom the carriage in which he is travelling.</item>
+
+        <item>If a male person, knowing a carriage, compartment, room or other place to be reserved by a Railway administration for the exclusive use of females, enters the placewithout lawful excuse, or having entered it remains therein after having been desired by any Railway Servant to leave it, he shall be punished with fine according.to existing rules of the Railways, in addition to the forfeiture of any fare which he may have paid and of any pass or ticket which he may haveobtained or purchased, and may be removed from the Railway by any Railway servant.</item>
+
+        <item>If a person suffering from an infectious or contagious disorder enters or travels upon a Railway, he and any person having charge of himupon the Railway when he so entered or travelled thereon, shalt be punished with fine according to existing rules of the Railways, in addition to theforfeiture of any fare which either of them may have paid, and of any pass or ticket which either of them may have obtained or purchased, and may be removedfrom the Railway by any Railway servant</item>
+
+        <item>If a person in any Railway carriage or upon any part of a Railway is in a state of intoxication, or commits any nuisance or act of indecency,or uses obscene or abusive language, or wilfully and without lawful excuse interferes with the comfort of any passenger or extinguishes any lamp,heshall be punished with fine which may extend to fifty rupees, in addition to the forfeiture of any fare which he may have paid and of any pass orticket which he may have obtained or purchased and may be removed from the Railway by any Railway servant</item>
+
+        <item>If a person unlawfully enters upon a railway, he shall be punished with fine according to existing rules of the Railways</item>
+
+    </string-array>
+
+</resources>

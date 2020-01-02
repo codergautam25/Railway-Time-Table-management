@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TrainSearch"
+    android:background="#B1A0A0">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Search Your Train"
+        android:textSize="20dp"
+        android:background="@drawable/shape_button"
+        app:layout_constraintBottom_toTopOf="@+id/sourceAutoCompleteTextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.64" />
+
+    <AutoCompleteTextView
+        android:id="@+id/sourceAutoCompleteTextView"
+        android:layout_width="300dp"
+        android:layout_height="51dp"
+        android:completionThreshold="1"
+        android:drawableLeft="@drawable/ic_location_on_blue_24dp"
+        android:hint=" Source"
+        android:popupBackground="#A7BADB"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.148">
+
+    </AutoCompleteTextView>
+
+    <Button
+        android:id="@+id/swapButton"
+        android:layout_width="54dp"
+        android:layout_height="31dp"
+        android:background="@drawable/ic_swap_vert_black_24dp"
+        android:text=""
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sourceAutoCompleteTextView"
+        app:layout_constraintVertical_bias="0.02" />
+
+    <AutoCompleteTextView
+        android:id="@+id/destinationAutoCompleteTextView"
+        android:layout_width="300dp"
+        android:layout_height="51dp"
+        android:completionThreshold="1"
+        android:drawableLeft="@drawable/ic_location_on_blue_24dp"
+        android:hint=" Destinattion"
+        android:popupBackground="#A7BADB"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/swapButton"
+        app:layout_constraintVertical_bias="0.016">
+
+    </AutoCompleteTextView>
+
+    <Button
+        android:id="@+id/searchTrainButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SEARCH"
+        android:textSize="15dp"
+        android:background="@drawable/shape_button"
+        android:textColor="#8525A5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/destinationAutoCompleteTextView"
+        app:layout_constraintVertical_bias="0.106" />
+
+
+    <Button
+        android:id="@+id/homeButtonTrainSearch"
+        android:layout_width="164dp"
+        android:layout_height="75dp"
+
+        android:text="HOME"
+        android:textSize="25sp"
+        android:textColor="#2D398B"
+        android:background="@drawable/shape_button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.121"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/searchTrainButton"
+        app:layout_constraintVertical_bias="0.47">
+
+    </Button>
+
+    <Button
+        android:id="@+id/locationSearchButton"
+        android:layout_width="164dp"
+        android:layout_height="75dp"
+
+        android:text="Location"
+        android:textSize="22sp"
+        android:textColor="#2D398B"
+        android:background="@drawable/shape_button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/homeButtonTrainSearch"
+        app:layout_constraintTop_toBottomOf="@+id/searchTrainButton"
+        app:layout_constraintVertical_bias="0.47">
+
+    </Button>
+
+    <Button
+        android:id="@+id/helpButton"
+        android:layout_width="164dp"
+        android:layout_height="75dp"
+
+        android:text="Helpline"
+        android:textColor="#2D398B"
+        android:textSize="22sp"
+        android:background="@drawable/shape_button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.121"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/homeButtonTrainSearch"
+        app:layout_constraintVertical_bias="0.104">
+
+    </Button>
+
+    <Button
+        android:id="@+id/railwayTourButton"
+        android:layout_width="164dp"
+        android:layout_height="75dp"
+
+        android:drawablePadding="0dp"
+        android:text="Rail Tour"
+        android:textSize="20dp"
+        android:background="@drawable/shape_button"
+        android:textColor="#2D398B"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/helpButton"
+        app:layout_constraintTop_toBottomOf="@+id/locationSearchButton"
+        app:layout_constraintVertical_bias="0.104">
+
+    </Button>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
